@@ -1,0 +1,22 @@
+h1. Overview
+
+RS_ClassColors colorizes player names by their class colors (as shown in the raid window). Player names that appear in the chat log, the friends list, the /who results list, the guild roster, and the battlegrounds scoreboard will be colored by class. You have the additional option of leaving offline players colored gray.
+
+A player's class is garnered from the guild roster, friends list, party/raid list, or results of a recent /who query. If the player is not in any of these lists (e.g., he is some random n00b spamming in Orgrimmar/Ironforge), his name will be colored gray until his class can be determined.
+
+Player's classes can be saved from session to session, such that a growing database of players' names and classes is kept. This can of course take up a lot of disk space, so the option is available to turn this off. (It is off by default.)
+
+Along with player names, players' levels and zones can be colorized in the friends list, guild roster, and /who results list. Levels are colored the same as in the target frame, and zones are shaded green if they are the same as your zone.
+
+If you dislike the coloring effect on any particular part of the game, you can turn it off. You can individually control whether or not to color player names in the chat window, battlegrounds scoreboard, guild tab, friends list, or /who results list.
+
+For instructions on how to do all this, please type /rscc after installing the mod.
+
+h2. Version History
+
+*1.4 (Nov 23, 2008)*
+
+* First import into GitHub.
+* Now supports WoW 3.0 (WotLK).
+* Added Death Knight class.
+* Configuration is now done in the WoW Interface Options dialog.
